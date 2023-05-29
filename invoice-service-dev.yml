@@ -3,8 +3,9 @@ spring:
     name: INVOICE-SERVICE
   data:
     mongodb:
+      host: localhost
+      port: 27017
       database: invoicedb
-      uri: mongodb://localhost:27017
   kafka:
     consumer:
       bootstrap-servers: http://localhost:9092
