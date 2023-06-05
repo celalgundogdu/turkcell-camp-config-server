@@ -40,3 +40,8 @@ resilience4j:
       carAvailability:
         maxAttempts: 5
         waitDuration: 10s
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0

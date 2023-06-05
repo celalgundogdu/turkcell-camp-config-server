@@ -21,3 +21,8 @@ eureka:
     prefer-ip-address: true
     metadata-map:
       serviceId: INVENTORY-SERVICE
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
